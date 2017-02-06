@@ -1,0 +1,14 @@
+{
+    "ship": {
+		"position": {
+					"x" : "240",
+					"y" : "30"
+					} ,
+		"speed" : "0.5",
+		"sprite" : "res/Ship/Ship1.png",
+        "name":"player",
+        "health":"600",
+        "lives":"3"
+  
+    }
+}

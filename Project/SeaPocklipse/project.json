@@ -1,0 +1,37 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["editbox","cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/MainMenu.js",
+		"src/configParameters/GameConfig.js",
+		"src/Game.js",
+		"src/BackgroundLayer.js",
+		"src/AnimationLayer.js",
+		"src/StatusLayer.js",
+		"src/Player.js",
+		"src/SingletonFactory.js",
+		"src/PhysicsComp.js",
+		"src/Projectile.js",
+		"src/Enemy.js",
+		"src/ExplosionEffect.js",
+        "src/AudioComponent.js",
+        "src/AIComponent.js",
+        "src/DAO.js",
+        "frameworks/thrift/thrift.js",
+        "src/gen-js/Leaderboard.js",
+        "src/gen-js/leaderboard_types.js",
+        "src/NetworkComp.js",
+        "src/HighScores.js"
+
+    ]
+}
